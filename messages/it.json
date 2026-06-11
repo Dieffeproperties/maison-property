@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "title": "Gestione di Proprietà di Lusso in Europa",
+    "description": "Gestione discreta e completa delle dimore più esclusive d'Europa. Un unico referente di fiducia per la vostra proprietà.",
+    "og_title": "MAISON · ÉLITE — Gestione di Proprietà di Lusso",
+    "og_description": "Ci prendiamo cura delle dimore più eccezionali d'Europa, con discrezione assoluta e dedizione autentica."
+  },
+  "nav": {
+    "services": "Servizi",
+    "portfolio": "Portfolio",
+    "europe": "Europa",
+    "contact": "Contatti",
+    "cta": "Parliamo"
+  },
+  "hero": {
+    "eyebrow": "Gestione di Proprietà di Lusso",
+    "title_before": "L'arte della cura",
+    "title_italic": "su misura",
+    "title_after": "della vostra proprietà.",
+    "subtitle": "Gestiamo le dimore più esclusive d'Europa con discrezione assoluta e un'attenzione senza compromessi.",
+    "cta": "Richiedi una consulenza riservata",
+    "scroll_label": "Scopri"
+  },
+  "manifesto": {
+    "eyebrow": "La nostra filosofia",
+    "text": "Per chi possiede proprietà straordinarie in Europa, offriamo qualcosa di raro: la serenità assoluta. Ci prendiamo cura della vostra dimora come se fosse la nostra — con l'attenzione, la discrezione e la competenza che una residenza d'eccellenza merita davvero. Voi rimanete al centro. Noi ci occupiamo di tutto il resto.",
+    "closing": "Questa è la gestione immobiliare nel suo significato più autentico."
+  },
+  "services": {
+    "eyebrow": "Cosa facciamo",
+    "title_before": "La custodia completa",
+    "title_italic": "della vostra proprietà.",
+    "title_after": "",
+    "items": {
+      "01_title": "Distribuzione e Marketing",
+      "01_desc": "Posizionamento selettivo sui canali di eccellenza e reti private, per attrarre solo gli ospiti all'altezza della vostra dimora.",
+      "02_title": "Relazione con Ospiti e Inquilini",
+      "02_desc": "Ogni soggiorno è un'esperienza curata. Gestiamo ogni comunicazione, ogni arrivo e ogni esigenza con cura personale e senza fretta.",
+      "03_title": "Housekeeping e Manutenzione",
+      "03_desc": "I nostri team selezionati mantengono la vostra proprietà agli standard più elevati, occupata o in quiete.",
+      "04_title": "Ottimizzazione dei Ricavi",
+      "04_desc": "Strategie di tarificazione e gestione del calendario che tutelano il vostro patrimonio e ne massimizzano la redditività.",
+      "05_title": "Conformità Normativa e Amministrativa",
+      "05_desc": "Gestione completa degli adempimenti burocratici, licenze e obblighi normativi, con precisione e assoluta riservatezza.",
+      "06_title": "Reportistica al Proprietario",
+      "06_desc": "Rapporti chiari e trasparenti secondo le vostre preferenze: occupazione, ricavi, interventi e ogni dettaglio rilevante."
+    }
+  },
+  "accessories": {
+    "eyebrow": "L'esperienza completa",
+    "title_before": "Un servizio",
+    "title_italic": "plasmato",
+    "title_after": "intorno a voi.",
+    "subtitle": "Per le dimore di vera distinzione, proponiamo una gamma di servizi complementari pensati con attenzione.",
+    "items": {
+      "01_title": "Concierge Dedicato",
+      "01_desc": "Un unico punto di contatto, disponibile a qualsiasi ora, per ogni richiesta — dall'approvvigionamento privato all'organizzazione di cene con chef stellati.",
+      "02_title": "Personale di Casa",
+      "02_desc": "Selezioniamo, presentiamo e gestiamo ogni membro del vostro staff domestico, dai property manager al personale stagionale.",
+      "03_title": "Interior Styling",
+      "03_desc": "Aggiornamenti stagionali, allestimenti e servizi di curation per presentare la vostra dimora nella sua luce migliore.",
+      "04_title": "Gestione Fornitori",
+      "04_desc": "Relazioni consolidate con i migliori artigiani, specialisti e fornitori locali — a esclusivo beneficio dei nostri clienti.",
+      "05_title": "Consulenza Legale e Fiscale",
+      "05_desc": "Accesso a professionisti di fiducia per diritto immobiliare, ottimizzazione fiscale e strutture di proprietà transfrontaliera."
+    }
+  },
+  "portfolio": {
+    "eyebrow": "Proprietà selezionate",
+    "title_before": "Alcune delle",
+    "title_italic": "dimore eccezionali",
+    "title_after": "affidate alle nostre cure.",
+    "items": {
+      "01_location": "Cap Ferrat, Costa Azzurra",
+      "01_type": "Villa Fronte Mare",
+      "02_location": "Porto Cervo, Sardegna",
+      "02_type": "Tenuta sul Mare",
+      "03_location": "Portals Nous, Maiorca",
+      "03_type": "Residenza Contemporanea",
+      "04_location": "Bellagio, Lago di Como",
+      "04_type": "Villa Storica",
+      "05_location": "Saint-Tropez, Var",
+      "05_type": "Bastide Provenzale",
+      "06_location": "Mykonos, Cicladi",
+      "06_type": "Ritiro Insulare"
+    }
+  },
+  "presence": {
+    "eyebrow": "La nostra presenza",
+    "title_before": "Dove vivono le più belle",
+    "title_italic": "proprietà",
+    "title_after": "d'Europa.",
+    "intro": "Operiamo nelle destinazioni più ambite d'Europa, con una profonda conoscenza locale e reti di fiducia consolidate in ogni mercato.",
+    "regions": {
+      "fr_label": "Francia e Monaco",
+      "fr_locations": "Costa Azzurra · Saint-Tropez · Monaco · Provenza",
+      "it_label": "Italia",
+      "it_locations": "Costa Smeralda · Lago di Como · Toscana · Costiera Amalfitana",
+      "es_label": "Spagna",
+      "es_locations": "Maiorca · Ibiza · Marbella · Barcellona",
+      "gr_label": "Grecia",
+      "gr_locations": "Mykonos · Santorini · Corfù",
+      "pt_label": "Portogallo",
+      "pt_locations": "Algarve · Cascais · Comporta",
+      "ch_label": "Svizzera",
+      "ch_locations": "Ginevra · Verbier · Gstaad"
+    }
+  },
+  "whyus": {
+    "eyebrow": "Perché i proprietari scelgono noi",
+    "title_before": "Cura senza",
+    "title_italic": "compromessi.",
+    "title_after": "Discrezione assoluta.",
+    "items": {
+      "01_title": "Un unico referente",
+      "01_desc": "Un solo interlocutore senior, che conosce a fondo la vostra proprietà e le vostre preferenze — sempre raggiungibile.",
+      "02_title": "Trasparenza totale",
+      "02_desc": "Nulla è nascosto. I nostri report sono onesti, puntuali e dettagliati quanto voi desiderate.",
+      "03_title": "Discrezione assoluta",
+      "03_desc": "La privacy vostra e dei vostri ospiti è un impegno non negoziabile, in ogni circostanza.",
+      "04_title": "Performance comprovata",
+      "04_desc": "// PLACEHOLDER — Inserire qui dati verificabili su tassi di occupazione, fedeltà dei clienti o una testimonianza."
+    }
+  },
+  "contact": {
+    "eyebrow": "Iniziamo una conversazione",
+    "title_before": "Affidateci",
+    "title_italic": "la vostra proprietà.",
+    "subtitle": "Saremo felici di conoscere la vostra dimora e di esplorare come possiamo essere al vostro servizio.",
+    "form": {
+      "name_label": "Il vostro nome",
+      "name_placeholder": "Nome e cognome",
+      "email_label": "Indirizzo e-mail",
+      "email_placeholder": "vostro@email.com",
+      "phone_label": "Telefono",
+      "phone_placeholder": "+XX XXX XXXXXXX",
+      "property_label": "Posizione della proprietà",
+      "property_placeholder": "Città, paese",
+      "message_label": "Il vostro messaggio",
+      "message_placeholder": "Raccontateci della vostra proprietà e di cosa state cercando.",
+      "submit": "Invia un messaggio",
+      "sending": "Invio in corso…",
+      "success": "Grazie. Ci faremo vivi a breve.",
+      "error": "Qualcosa non ha funzionato. Riprova o scrivici direttamente.",
+      "note": "Le vostre informazioni sono trattate con la massima riservatezza."
+    },
+    "details": {
+      "label": "O contattaci direttamente",
+      "email": "contact@maisonelite.eu",
+      "phone": "+33 (0)1 XX XX XX XX",
+      "note": "// PLACEHOLDER — Sostituire con i contatti reali"
+    }
+  },
+  "footer": {
+    "tagline": "Gestione di proprietà di lusso in tutta Europa.",
+    "nav_label": "Navigazione",
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Termini di utilizzo",
+      "copyright": "© {year} MAISON · ÉLITE. Tutti i diritti riservati."
+    }
+  }
+}

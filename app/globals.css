@@ -1,0 +1,172 @@
+@import "tailwindcss";
+
+/* ─── DESIGN TOKENS — Three-layer architecture ─────────────────────────────── */
+
+/* Layer 1 (static tokens) — hex values resolved at build time */
+@theme {
+  --color-ivory:    #F6F1EA;
+  --color-sand:     #E9DCCB;
+  --color-nude:     #E2CDB8;
+  --color-taupe:    #C2AC95;
+  --color-mocha:    #4A3F35;
+  --color-espresso: #332B24;
+  --color-bronze:   #A8845C;
+  --color-ink:      #3A332C;
+  --color-mist:     #8C8073;
+  --color-cream:    #F2EBE1;
+
+  /* Tracking */
+  --tracking-eyebrow: 0.22em;
+}
+
+/* Layer 2 (inline tokens) — font tokens reference CSS vars set by next/font */
+@theme inline {
+  --font-cormorant: var(--font-cormorant-var), Georgia, "Times New Roman", serif;
+  --font-jost:      var(--font-jost-var), system-ui, sans-serif;
+}
+
+/* ─── ROOT FALLBACKS (in case next/font CSS vars aren't loaded yet) ──────── */
+
+:root {
+  --font-cormorant-var: "Cormorant Garamond", Georgia, serif;
+  --font-jost-var:      "Jost", system-ui, sans-serif;
+}
+
+/* ─── BASE ──────────────────────────────────────────────────────────────────── */
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-ivory);
+    color: var(--color-ink);
+    font-family: var(--font-jost);
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  *:focus-visible {
+    outline: 2px solid var(--color-bronze);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  ::selection {
+    background-color: var(--color-nude);
+    color: var(--color-ink);
+  }
+
+  ::-webkit-scrollbar        { width: 6px; }
+  ::-webkit-scrollbar-track  { background: var(--color-ivory); }
+  ::-webkit-scrollbar-thumb  { background: var(--color-taupe); border-radius: 3px; }
+}
+
+/* ─── COMPONENTS (bespoke utilities) ────────────────────────────────────────── */
+
+@layer components {
+  /* Eyebrow / label style */
+  .eyebrow {
+    font-family: var(--font-jost);
+    font-size: 0.625rem;
+    font-weight: 400;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+  }
+
+  /* Display font convenience class */
+  .font-display {
+    font-family: var(--font-cormorant);
+  }
+
+  /* Bronze hairline separators */
+  .hairline {
+    display: block;
+    height: 1px;
+    background-color: color-mix(in srgb, var(--color-bronze) 40%, transparent);
+    border: none;
+  }
+
+  .hairline-vertical {
+    display: inline-block;
+    width: 1px;
+    background-color: color-mix(in srgb, var(--color-bronze) 35%, transparent);
+  }
+}
+
+/* ─── PORTFOLIO EMBED WRAPPER ───────────────────────────────────────────────── */
+
+/* Overlay that blends white iframe backgrounds to ivory via multiply */
+.embed-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+/* ─── PORTFOLIO MARQUEE ─────────────────────────────────────────────────────── */
+
+@keyframes marquee-scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+.marquee-track {
+  animation: marquee-scroll 48s linear infinite;
+  will-change: transform;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+/* Fade cards at left/right edges — no hard clip */
+.marquee-container {
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 7%,
+    black 93%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 7%,
+    black 93%,
+    transparent 100%
+  );
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none;
+  }
+}
+
+/* ─── VIEW TRANSITIONS (language switch & page navigation) ─────────────────── */
+
+@keyframes vt-fade-out {
+  from { opacity: 1; transform: translateY(0); }
+  to   { opacity: 0; transform: translateY(-6px); }
+}
+
+@keyframes vt-fade-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+::view-transition-old(root) {
+  animation: 260ms ease-out vt-fade-out;
+}
+
+::view-transition-new(root) {
+  animation: 300ms ease-out vt-fade-in;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation: none;
+  }
+}
