@@ -10,8 +10,8 @@ export type AuditAction =
   | 'lead_updated'
   | 'lead_deleted'
   | 'estimate_created'
-  | 'admin_login_success'
-  | 'admin_login_failed'
+  | 'admin_login_success'   // successful auth — ip + user-agent tracked
+  | 'admin_login_failed'    // failed auth — used by rate-limiting logic
   | 'pdf_downloaded';
 
 interface AuditParams {

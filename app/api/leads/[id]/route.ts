@@ -2,19 +2,11 @@ import { NextRequest, NextResponse } from 'next/server';
 import { globalLeads, type Lead, type LeadStatus } from '@/lib/leads-store';
 import { getSupabase, type DbLead } from '@/lib/supabase';
 import { audit } from '@/lib/audit';
-
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD ?? 'maison2024';
+import { authenticate } from '@/lib/auth';
 
 const VALID_STATUSES: LeadStatus[] = [
   'new', 'contacted', 'negotiating', 'proposal', 'signed', 'lost',
 ];
-
-function checkAuth(request: NextRequest): boolean {
-  const auth = request.headers.get('Authorization');
-  if (!auth) return false;
-  const token = auth.startsWith('Bearer ') ? auth.slice(7) : auth;
-  return token === ADMIN_PASSWORD;
-}
 
 function fromDb(row: DbLead): Lead {
   return {
@@ -35,9 +27,10 @@ export async function PATCH(
   request: NextRequest,
   { params }: { params: Promise<{ id: string }> }
 ) {
-  if (!checkAuth(request)) {
-    audit({ action: 'admin_login_failed', request, metadata: { endpoint: 'PATCH /api/leads/[id]' } });
-    return NextResponse.json({ error: 'Non autorizzato' }, { status: 401 });
+  const { ok, reason } = await authenticate(request, 'PATCH /api/leads/[id]');
+  if (!ok) {
+    const status = reason === 'blocked' ? 429 : 401;
+    return NextResponse.json({ error: reason === 'blocked' ? 'Troppi tentativi.' : 'Non autorizzato' }, { status });
   }
 
   const { id } = await params;

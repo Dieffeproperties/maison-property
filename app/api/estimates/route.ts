@@ -1,23 +1,18 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getSupabase, type DbEstimate } from '@/lib/supabase';
 import { audit } from '@/lib/audit';
+import { authenticate } from '@/lib/auth';
 
 export const runtime = 'nodejs';
 
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD ?? 'maison2024';
-
-function checkAuth(request: NextRequest): boolean {
-  const auth = request.headers.get('Authorization');
-  if (!auth) return false;
-  const token = auth.startsWith('Bearer ') ? auth.slice(7) : auth;
-  return token === ADMIN_PASSWORD;
-}
-
 // POST /api/estimates — save a new estimate (called from stima wizard)
 export async function POST(request: NextRequest) {
-  if (!checkAuth(request)) {
-    audit({ action: 'admin_login_failed', request, metadata: { endpoint: 'POST /api/estimates' } });
-    return NextResponse.json({ error: 'Non autorizzato' }, { status: 401 });
+  const { ok, reason } = await authenticate(request, 'POST /api/estimates');
+  if (!ok) {
+    return NextResponse.json(
+      { error: reason === 'blocked' ? 'Troppi tentativi.' : 'Non autorizzato' },
+      { status: reason === 'blocked' ? 429 : 401 }
+    );
   }
 
   let body: Record<string, unknown>;
@@ -79,8 +74,12 @@ export async function POST(request: NextRequest) {
 
 // GET /api/estimates — list recent estimates (admin only)
 export async function GET(request: NextRequest) {
-  if (!checkAuth(request)) {
-    return NextResponse.json({ error: 'Non autorizzato' }, { status: 401 });
+  const { ok, reason } = await authenticate(request, 'GET /api/estimates');
+  if (!ok) {
+    return NextResponse.json(
+      { error: reason === 'blocked' ? 'Troppi tentativi.' : 'Non autorizzato' },
+      { status: reason === 'blocked' ? 429 : 401 }
+    );
   }
 
   const db = getSupabase();

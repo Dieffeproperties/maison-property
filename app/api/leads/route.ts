@@ -1,16 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { globalLeads, type Lead } from '@/lib/leads-store';
 import { getSupabase, type DbLead } from '@/lib/supabase';
+import { authenticate } from '@/lib/auth';
 import { audit } from '@/lib/audit';
-
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD ?? 'maison2024';
-
-function checkAuth(request: NextRequest): boolean {
-  const auth = request.headers.get('Authorization');
-  if (!auth) return false;
-  const token = auth.startsWith('Bearer ') ? auth.slice(7) : auth;
-  return token === ADMIN_PASSWORD;
-}
 
 function fromDb(row: DbLead): Lead {
   return {
@@ -28,9 +20,10 @@ function fromDb(row: DbLead): Lead {
 
 // GET /api/leads — list all leads (admin only)
 export async function GET(request: NextRequest) {
-  if (!checkAuth(request)) {
-    audit({ action: 'admin_login_failed', request, metadata: { endpoint: 'GET /api/leads' } });
-    return NextResponse.json({ error: 'Non autorizzato' }, { status: 401 });
+  const { ok, reason } = await authenticate(request, 'GET /api/leads');
+  if (!ok) {
+    const status = reason === 'blocked' ? 429 : 401;
+    return NextResponse.json({ error: reason === 'blocked' ? 'Troppi tentativi. Riprova tra 15 minuti.' : 'Non autorizzato' }, { status });
   }
 
   const db = getSupabase();
@@ -56,9 +49,10 @@ export async function GET(request: NextRequest) {
 
 // POST /api/leads — create lead manually (admin)
 export async function POST(request: NextRequest) {
-  if (!checkAuth(request)) {
-    audit({ action: 'admin_login_failed', request, metadata: { endpoint: 'POST /api/leads' } });
-    return NextResponse.json({ error: 'Non autorizzato' }, { status: 401 });
+  const { ok, reason } = await authenticate(request, 'POST /api/leads');
+  if (!ok) {
+    const status = reason === 'blocked' ? 429 : 401;
+    return NextResponse.json({ error: reason === 'blocked' ? 'Troppi tentativi.' : 'Non autorizzato' }, { status });
   }
 
   let body: Record<string, unknown>;
@@ -93,7 +87,7 @@ export async function POST(request: NextRequest) {
     }
 
     lead = fromDb(data as DbLead);
-    audit({ action: 'lead_created', tableName: 'leads', recordId: lead.id, newData: lead, request });
+    audit({ action: 'lead_created', tableName: 'leads', recordId: lead.id, newData: lead as unknown as Record<string, unknown>, request });
   } else {
     lead = {
       id: crypto.randomUUID(),
