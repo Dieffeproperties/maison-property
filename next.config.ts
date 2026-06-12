@@ -7,11 +7,14 @@ const nextConfig: NextConfig = {
   eslint: { ignoreDuringBuilds: true },
   images: {
     remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'images.unsplash.com',
-      },
+      { protocol: 'https', hostname: 'images.unsplash.com' },
+      { protocol: 'https', hostname: '**' },
     ],
+  },
+  webpack: (config) => {
+    // Prevent canvas from being bundled (needed by @react-pdf/renderer)
+    config.resolve.alias = { ...config.resolve.alias, canvas: false };
+    return config;
   },
 };
 

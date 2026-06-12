@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
+import Link from 'next/link';
 import type { Lead, LeadStatus } from '@/lib/leads-store';
 
 // ─── Constants ────────────────────────────────────────────────────────────────
@@ -401,21 +402,44 @@ function Dashboard({
           </span>
         </div>
 
-        <button
-          onClick={onLogout}
-          style={{
-            background: 'transparent',
-            border: '1px solid #2a2f3e',
-            borderRadius: 6,
-            color: '#9ca3af',
-            fontSize: 12,
-            padding: '6px 14px',
-            cursor: 'pointer',
-            letterSpacing: '0.06em',
-          }}
-        >
-          LOGOUT
-        </button>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+          <Link
+            href="/admin-immobiliare/stima"
+            style={{
+              background: '#c9a96e',
+              color: '#0f1117',
+              border: 'none',
+              borderRadius: 6,
+              fontSize: 12,
+              fontWeight: 700,
+              padding: '6px 16px',
+              cursor: 'pointer',
+              letterSpacing: '0.08em',
+              textTransform: 'uppercase',
+              textDecoration: 'none',
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: 6,
+            }}
+          >
+            + Nuova Stima
+          </Link>
+          <button
+            onClick={onLogout}
+            style={{
+              background: 'transparent',
+              border: '1px solid #2a2f3e',
+              borderRadius: 6,
+              color: '#9ca3af',
+              fontSize: 12,
+              padding: '6px 14px',
+              cursor: 'pointer',
+              letterSpacing: '0.06em',
+            }}
+          >
+            LOGOUT
+          </button>
+        </div>
       </header>
 
       {/* Content */}
