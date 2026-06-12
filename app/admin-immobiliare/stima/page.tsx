@@ -396,6 +396,15 @@ export default function StimaPage() {
 
       setResult(parsed);
       setEdited(JSON.parse(JSON.stringify(parsed)));
+
+      // Save to Supabase (fire-and-forget — never block the user)
+      const pw = sessionStorage.getItem('maison_admin_pw') ?? 'maison2024';
+      fetch('/api/estimates', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${pw}` },
+        body: JSON.stringify({ inputs, result: parsed, language, pdfLanguage: language }),
+      }).catch(() => {});
+
       setStep('review');
     } catch (err) {
       if ((err as Error).name === 'AbortError') return;
@@ -449,8 +458,9 @@ export default function StimaPage() {
       const blob = await pdf(element).toBlob();
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
+      const filename = `stima-${(inputs.propertyName || 'proprietà').replace(/\s+/g, '-').toLowerCase()}-${new Date().toISOString().slice(0, 10)}.pdf`;
       a.href = url;
-      a.download = `stima-${(inputs.propertyName || 'proprietà').replace(/\s+/g, '-').toLowerCase()}-${new Date().toISOString().slice(0, 10)}.pdf`;
+      a.download = filename;
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
