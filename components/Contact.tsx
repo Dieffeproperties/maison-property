@@ -17,9 +17,29 @@ export default function Contact() {
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setStatus('sending');
-    // Placeholder — wire up to your form service or API route
-    await new Promise((r) => setTimeout(r, 1200));
-    setStatus('success');
+
+    const form = e.currentTarget;
+    const data = new FormData(form);
+    const name = (data.get('name') as string | null) ?? '';
+    const email = (data.get('email') as string | null) ?? '';
+    const phone = (data.get('phone') as string | null) ?? '';
+    const property = (data.get('property') as string | null) ?? '';
+    const message = (data.get('message') as string | null) ?? '';
+
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name, email, phone, property, message }),
+      });
+      if (res.ok) {
+        setStatus('success');
+      } else {
+        setStatus('error');
+      }
+    } catch {
+      setStatus('error');
+    }
   }
 
   const inputClass = `

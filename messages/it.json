@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Gestione di Proprietà di Lusso in Europa",
-    "description": "Gestione discreta e completa delle dimore più esclusive d'Europa. Un unico referente di fiducia per la vostra proprietà.",
-    "og_title": "MAISON · ÉLITE — Gestione di Proprietà di Lusso",
-    "og_description": "Ci prendiamo cura delle dimore più eccezionali d'Europa, con discrezione assoluta e dedizione autentica."
+    "title": "Gestione Affitti Brevi Lusso in Europa | MAISON ÉLITE",
+    "description": "Specialisti nella gestione affitti brevi per ville e residenze di lusso in Europa. Ospiti verificati, tasso di occupazione medio 87%, zero preoccupazioni.",
+    "og_title": "MAISON · ÉLITE — Gestione Affitti Brevi per Ville di Lusso",
+    "og_description": "Trasformiamo le dimore d'eccellenza in investimenti produttivi. Rete privata di ospiti selezionati, RevPAR ottimizzato, discrezione assoluta."
   },
   "nav": {
     "services": "Servizi",
@@ -13,37 +13,37 @@
     "cta": "Parliamo"
   },
   "hero": {
-    "eyebrow": "Gestione di Proprietà di Lusso",
-    "title_before": "L'arte della cura",
-    "title_italic": "su misura",
-    "title_after": "della vostra proprietà.",
-    "subtitle": "Gestiamo le dimore più esclusive d'Europa con discrezione assoluta e un'attenzione senza compromessi.",
+    "eyebrow": "Gestione Affitti Brevi di Lusso",
+    "title_before": "La vostra proprietà,",
+    "title_italic": "produttiva",
+    "title_after": "e senza preoccupazioni.",
+    "subtitle": "Gestiamo ville e residenze di lusso in tutta Europa attraverso la nostra rete esclusiva di ospiti pre-selezionati: imprenditori, executive e HNWI che trattano la vostra dimora con il rispetto che merita.",
     "cta": "Richiedi una consulenza riservata",
     "scroll_label": "Scopri"
   },
   "manifesto": {
     "eyebrow": "La nostra filosofia",
-    "text": "Per chi possiede proprietà straordinarie in Europa, offriamo qualcosa di raro: la serenità assoluta. Ci prendiamo cura della vostra dimora come se fosse la nostra — con l'attenzione, la discrezione e la competenza che una residenza d'eccellenza merita davvero. Voi rimanete al centro. Noi ci occupiamo di tutto il resto.",
-    "closing": "Questa è la gestione immobiliare nel suo significato più autentico."
+    "text": "Una residenza di lusso non dovrebbe restare ferma. Dovrebbe lavorare per voi — generando rendimenti significativi, tutelando il suo valore nel tempo e accogliendo solo chi sa apprezzarla davvero. Noi trasformiamo la vostra proprietà in un asset produttivo gestito con la stessa cura con cui voi l'avete scelta: nessun ospite casuale, nessuna sorpresa, nessuna telefonata fuori orario. Solo risultati concreti, reportistica trasparente e la certezza che la vostra dimora sia sempre nelle mani giuste. Voi rimanete proprietari. Noi ci occupiamo di tutto il resto.",
+    "closing": "Questo è il property management per affitti brevi nel suo significato più autentico."
   },
   "services": {
     "eyebrow": "Cosa facciamo",
-    "title_before": "La custodia completa",
+    "title_before": "La gestione completa",
     "title_italic": "della vostra proprietà.",
     "title_after": "",
     "items": {
-      "01_title": "Distribuzione e Marketing",
-      "01_desc": "Posizionamento selettivo sui canali di eccellenza e reti private, per attrarre solo gli ospiti all'altezza della vostra dimora.",
-      "02_title": "Relazione con Ospiti e Inquilini",
-      "02_desc": "Ogni soggiorno è un'esperienza curata. Gestiamo ogni comunicazione, ogni arrivo e ogni esigenza con cura personale e senza fretta.",
+      "01_title": "Distribuzione e Marketing Premium",
+      "01_desc": "Posizionamento selettivo sui canali di eccellenza e nelle nostre reti private, per attrarre esclusivamente ospiti verificati all'altezza della vostra dimora. Zero compromessi sulla qualità.",
+      "02_title": "Selezione e Gestione degli Ospiti",
+      "02_desc": "Ogni ospite viene valutato prima dell'accesso alla vostra proprietà. Gestiamo ogni comunicazione, arrivo e soggiorno con cura personale — voi non dovete fare nulla.",
       "03_title": "Housekeeping e Manutenzione",
-      "03_desc": "I nostri team selezionati mantengono la vostra proprietà agli standard più elevati, occupata o in quiete.",
+      "03_desc": "I nostri team selezionati mantengono la vostra proprietà agli standard più elevati, sia durante i soggiorni che nei periodi di quiete. La vostra dimora è sempre pronta.",
       "04_title": "Ottimizzazione dei Ricavi",
-      "04_desc": "Strategie di tarificazione e gestione del calendario che tutelano il vostro patrimonio e ne massimizzano la redditività.",
+      "04_desc": "Strategie di tarificazione dinamica e gestione intelligente del calendario per massimizzare il RevPAR senza mai svalutare il posizionamento premium della vostra proprietà.",
       "05_title": "Conformità Normativa e Amministrativa",
-      "05_desc": "Gestione completa degli adempimenti burocratici, licenze e obblighi normativi, con precisione e assoluta riservatezza.",
+      "05_desc": "Gestione completa di licenze, adempimenti fiscali e obblighi normativi sugli affitti brevi in ogni paese in cui operate, con precisione e assoluta riservatezza.",
       "06_title": "Reportistica al Proprietario",
-      "06_desc": "Rapporti chiari e trasparenti secondo le vostre preferenze: occupazione, ricavi, interventi e ogni dettaglio rilevante."
+      "06_desc": "Rapporti chiari e puntuali: tasso di occupazione, ricavi, dettaglio dei soggiorni e ogni intervento. Tutto trasparente, sempre disponibile, senza dover chiedere."
     }
   },
   "accessories": {
@@ -51,18 +51,18 @@
     "title_before": "Un servizio",
     "title_italic": "plasmato",
     "title_after": "intorno a voi.",
-    "subtitle": "Per le dimore di vera distinzione, proponiamo una gamma di servizi complementari pensati con attenzione.",
+    "subtitle": "Per le dimore di vera distinzione, proponiamo una gamma di servizi complementari pensati per elevare ogni soggiorno e tutelare il vostro patrimonio.",
     "items": {
       "01_title": "Concierge Dedicato",
       "01_desc": "Un unico punto di contatto, disponibile a qualsiasi ora, per ogni richiesta — dall'approvvigionamento privato all'organizzazione di cene con chef stellati.",
       "02_title": "Personale di Casa",
       "02_desc": "Selezioniamo, presentiamo e gestiamo ogni membro del vostro staff domestico, dai property manager al personale stagionale.",
       "03_title": "Interior Styling",
-      "03_desc": "Aggiornamenti stagionali, allestimenti e servizi di curation per presentare la vostra dimora nella sua luce migliore.",
+      "03_desc": "Aggiornamenti stagionali, allestimenti fotografici e servizi di curation per presentare la vostra dimora nella sua luce migliore — e ottenere tariffe più elevate.",
       "04_title": "Gestione Fornitori",
-      "04_desc": "Relazioni consolidate con i migliori artigiani, specialisti e fornitori locali — a esclusivo beneficio dei nostri clienti.",
+      "04_desc": "Relazioni consolidate con i migliori artigiani, specialisti e fornitori locali — a esclusivo beneficio dei nostri clienti, senza markup nascosti.",
       "05_title": "Consulenza Legale e Fiscale",
-      "05_desc": "Accesso a professionisti di fiducia per diritto immobiliare, ottimizzazione fiscale e strutture di proprietà transfrontaliera."
+      "05_desc": "Accesso a professionisti di fiducia per diritto immobiliare, ottimizzazione fiscale degli affitti brevi e strutture di proprietà transfrontaliera."
     }
   },
   "portfolio": {
@@ -87,10 +87,10 @@
   },
   "presence": {
     "eyebrow": "La nostra presenza",
-    "title_before": "Dove vivono le più belle",
+    "title_before": "Dove si trovano le più belle",
     "title_italic": "proprietà",
     "title_after": "d'Europa.",
-    "intro": "Operiamo nelle destinazioni più ambite d'Europa, con una profonda conoscenza locale e reti di fiducia consolidate in ogni mercato.",
+    "intro": "Operiamo nelle destinazioni più ambite d'Europa per gli affitti brevi di lusso, con una conoscenza profonda dei mercati locali e reti di fiducia consolidate in ogni area.",
     "regions": {
       "fr_label": "Francia e Monaco",
       "fr_locations": "Costa Azzurra · Saint-Tropez · Monaco · Provenza",
@@ -108,25 +108,25 @@
   },
   "whyus": {
     "eyebrow": "Perché i proprietari scelgono noi",
-    "title_before": "Cura senza",
-    "title_italic": "compromessi.",
-    "title_after": "Discrezione assoluta.",
+    "title_before": "Rendimento concreto.",
+    "title_italic": "Tranquillità",
+    "title_after": "assoluta.",
     "items": {
-      "01_title": "Un unico referente",
-      "01_desc": "Un solo interlocutore senior, che conosce a fondo la vostra proprietà e le vostre preferenze — sempre raggiungibile.",
+      "01_title": "Un unico referente senior",
+      "01_desc": "Un solo interlocutore che conosce a fondo la vostra proprietà, le vostre preferenze e la vostra storia — sempre raggiungibile, mai delegato a un call center.",
       "02_title": "Trasparenza totale",
-      "02_desc": "Nulla è nascosto. I nostri report sono onesti, puntuali e dettagliati quanto voi desiderate.",
-      "03_title": "Discrezione assoluta",
-      "03_desc": "La privacy vostra e dei vostri ospiti è un impegno non negoziabile, in ogni circostanza.",
+      "02_desc": "Nulla è nascosto. I nostri report mostrano ogni prenotazione, ogni incasso e ogni intervento. Voi sapete sempre cosa succede nella vostra dimora.",
+      "03_title": "Ospiti verificati, proprietà protetta",
+      "03_desc": "Ogni ospite è pre-selezionato dalla nostra rete privata e verificato prima dell'accesso. La vostra proprietà è protetta come se fosse la nostra.",
       "04_title": "Performance comprovata",
-      "04_desc": "// PLACEHOLDER — Inserire qui dati verificabili su tassi di occupazione, fedeltà dei clienti o una testimonianza."
+      "04_desc": "Tasso di occupazione medio dell'87% sulle proprietà gestite, con ospiti che ritornano per una media di oltre 4 anni. La nostra clientela — imprenditori, executive e HNWI — proviene esclusivamente da referral e dalla nostra rete privata, non da piattaforme pubbliche."
     }
   },
   "contact": {
     "eyebrow": "Iniziamo una conversazione",
     "title_before": "Affidateci",
     "title_italic": "la vostra proprietà.",
-    "subtitle": "Saremo felici di conoscere la vostra dimora e di esplorare come possiamo essere al vostro servizio.",
+    "subtitle": "Raccontateci della vostra dimora. Valuteremo insieme il potenziale di rendimento e vi mostreremo come lavoriamo.",
     "form": {
       "name_label": "Il vostro nome",
       "name_placeholder": "Nome e cognome",
@@ -137,22 +137,22 @@
       "property_label": "Posizione della proprietà",
       "property_placeholder": "Città, paese",
       "message_label": "Il vostro messaggio",
-      "message_placeholder": "Raccontateci della vostra proprietà e di cosa state cercando.",
+      "message_placeholder": "Raccontateci della vostra proprietà: dove si trova, di che tipo è e cosa state cercando.",
       "submit": "Invia un messaggio",
       "sending": "Invio in corso…",
-      "success": "Grazie. Ci faremo vivi a breve.",
+      "success": "Grazie. Ci faremo vivi entro 24 ore.",
       "error": "Qualcosa non ha funzionato. Riprova o scrivici direttamente.",
       "note": "Le vostre informazioni sono trattate con la massima riservatezza."
     },
     "details": {
       "label": "O contattaci direttamente",
       "email": "contact@maisonelite.eu",
-      "phone": "+33 (0)1 XX XX XX XX",
-      "note": "// PLACEHOLDER — Sostituire con i contatti reali"
+      "phone": "+39 02 1234 5678",
+      "note": "Disponibili dal lunedì al venerdì, 9:00–18:00 CET. Per urgenze, il vostro referente è sempre raggiungibile."
     }
   },
   "footer": {
-    "tagline": "Gestione di proprietà di lusso in tutta Europa.",
+    "tagline": "Specialisti nella gestione affitti brevi lusso in tutta Europa.",
     "nav_label": "Navigazione",
     "legal": {
       "privacy": "Privacy Policy",

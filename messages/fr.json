@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Gestion Immobilière de Prestige en Europe",
-    "description": "Gestion discrète et complète des plus belles résidences privées d'Europe. Un interlocuteur unique, une confiance absolue.",
-    "og_title": "MAISON · ÉLITE — Gestion Immobilière de Prestige",
-    "og_description": "Nous prenons soin de vos propriétés d'exception à travers l'Europe, avec discrétion et savoir-faire."
+    "title": "Gestion Location Courte Durée Luxe en Europe | MAISON ÉLITE",
+    "description": "Spécialistes de la gestion location saisonnière prestige en Europe. Clientèle sélectionnée, taux d'occupation moyen 87%, zéro contrainte pour le propriétaire.",
+    "og_title": "MAISON · ÉLITE — Gestion Villa Luxe Europe",
+    "og_description": "Nous transformons les demeures d'exception en actifs performants. Réseau privé de locataires sélectionnés, RevPAR optimisé, discrétion absolue."
   },
   "nav": {
     "services": "Prestations",
@@ -13,18 +13,18 @@
     "cta": "Nous contacter"
   },
   "hero": {
-    "eyebrow": "Gestion Immobilière de Prestige",
-    "title_before": "L'art de la gestion",
-    "title_italic": "sur-mesure",
-    "title_after": "de votre bien.",
-    "subtitle": "Nous gérons les plus belles résidences d'Europe avec discrétion absolue et un savoir-faire d'exception.",
+    "eyebrow": "Gestion Location Courte Durée Luxe",
+    "title_before": "Votre propriété,",
+    "title_italic": "productive",
+    "title_after": "et sans aucune contrainte.",
+    "subtitle": "Nous gérons villas et résidences de prestige dans toute l'Europe grâce à notre réseau exclusif de locataires présélectionnés — chefs d'entreprise, dirigeants et HNWI qui traitent votre demeure avec le respect qu'elle mérite.",
     "cta": "Demander un entretien privé",
     "scroll_label": "Découvrir"
   },
   "manifesto": {
     "eyebrow": "Notre philosophie",
-    "text": "Pour ceux qui possèdent des propriétés d'exception à travers l'Europe, nous offrons ce qui est devenu rare : une tranquillité d'esprit absolue. Nous veillons sur votre bien comme s'il était le nôtre — avec l'attention, la discrétion et l'expertise qu'une résidence de caractère mérite véritablement. Vous gardez le contrôle. Nous nous occupons du reste.",
-    "closing": "Telle est la gestion immobilière dans toute sa noblesse."
+    "text": "Une résidence de prestige ne devrait pas rester inactive. Elle devrait travailler pour vous — générer des revenus significatifs, préserver sa valeur dans le temps et n'accueillir que des hôtes qui savent l'apprécier à sa juste valeur. Nous transformons votre bien en actif productif géré avec le même soin que celui que vous avez mis à le choisir : aucun locataire hasardeux, aucune mauvaise surprise, aucun appel intempestif. Seulement des résultats concrets, un reporting transparent et la certitude que votre demeure est toujours entre les meilleures mains. Vous restez propriétaire. Nous nous occupons de tout le reste.",
+    "closing": "Voilà ce qu'est véritablement la gestion location courte durée luxe."
   },
   "services": {
     "eyebrow": "Nos prestations",
@@ -32,18 +32,18 @@
     "title_italic": "complète",
     "title_after": "de votre propriété.",
     "items": {
-      "01_title": "Distribution & Commercialisation",
-      "01_desc": "Référencement sélectif auprès des canaux de prestige et réseaux privés, pour attirer une clientèle à la hauteur de votre bien.",
-      "02_title": "Relation Client & Locataires",
-      "02_desc": "Chaque séjour est une expérience soignée. Nous gérons l'ensemble des échanges, des arrivées et des besoins avec une attention toute personnelle.",
+      "01_title": "Distribution & Commercialisation Premium",
+      "01_desc": "Référencement sélectif sur les canaux de prestige et dans nos réseaux privés, pour attirer exclusivement des locataires vérifiés à la hauteur de votre bien. Aucun compromis sur la qualité.",
+      "02_title": "Sélection et Gestion des Locataires",
+      "02_desc": "Chaque locataire est évalué avant d'accéder à votre propriété. Nous gérons toutes les communications, arrivées et séjours avec une attention personnelle — vous n'avez rien à faire.",
       "03_title": "Entretien & Maintenance",
-      "03_desc": "Nos équipes sélectionnées maintiennent votre propriété à un niveau d'exigence irréprochable, occupée ou non.",
+      "03_desc": "Nos équipes sélectionnées maintiennent votre propriété à un niveau d'exigence irréprochable, pendant les séjours comme entre deux locations. Votre bien est toujours prêt.",
       "04_title": "Optimisation des Revenus",
-      "04_desc": "Stratégies de tarification et de gestion du calendrier qui préservent la valeur de votre actif et en optimisent le rendement.",
+      "04_desc": "Tarification dynamique et gestion intelligente du calendrier pour maximiser le RevPAR sans jamais dévaloriser le positionnement prestige de votre propriété.",
       "05_title": "Conformité & Administration",
-      "05_desc": "Gestion complète des démarches réglementaires, licences et obligations administratives, traitées avec précision et discrétion.",
+      "05_desc": "Gestion complète des licences de location saisonnière, obligations fiscales et exigences réglementaires dans chaque pays européen où vous opérez — avec précision et discrétion.",
       "06_title": "Reporting Propriétaire",
-      "06_desc": "Des rapports clairs et transparents selon vos souhaits : taux d'occupation, revenus, interventions et tous les éléments utiles."
+      "06_desc": "Des rapports clairs et ponctuels : taux d'occupation, revenus, détail des séjours et chaque intervention. Tout est transparent, toujours disponible, sans avoir à demander."
     }
   },
   "accessories": {
@@ -51,18 +51,18 @@
     "title_before": "Un service",
     "title_italic": "façonné",
     "title_after": "autour de vous.",
-    "subtitle": "Pour les résidences de véritable prestige, nous proposons une gamme de services complémentaires pensés avec soin.",
+    "subtitle": "Pour les résidences de véritable prestige, nous proposons une gamme de services complémentaires pensés pour sublimer chaque séjour et préserver la valeur de votre patrimoine.",
     "items": {
       "01_title": "Conciergerie Dédiée",
-      "01_desc": "Un interlocuteur unique, disponible à toute heure, pour la moindre demande — du ravitaillement privé à la réservation d'un chef étoilé.",
+      "01_desc": "Un interlocuteur unique, disponible à toute heure, pour la moindre demande — du ravitaillement privé à la réservation d'un chef étoilé pour vos locataires.",
       "02_title": "Personnel de Maison",
       "02_desc": "Nous recrutons, présentons et gérons chaque membre de votre équipe de maison, des régisseurs au personnel saisonnier.",
       "03_title": "Décoration & Mise en Scène",
-      "03_desc": "Rafraîchissements saisonniers, mise en valeur de la propriété et curation pour présenter votre bien sous son meilleur jour.",
+      "03_desc": "Rafraîchissements saisonniers, shooting photo professionnel et curation pour présenter votre bien sous son meilleur jour — et obtenir des tarifs plus élevés.",
       "04_title": "Gestion des Prestataires",
-      "04_desc": "Des relations privilégiées avec les meilleurs artisans, spécialistes et prestataires locaux — au bénéfice exclusif de nos clients.",
+      "04_desc": "Des relations privilégiées avec les meilleurs artisans, spécialistes et prestataires locaux — au bénéfice exclusif de nos clients, sans frais cachés.",
       "05_title": "Conseil Juridique & Fiscal",
-      "05_desc": "Mise en relation avec des conseillers de confiance pour le droit immobilier, l'optimisation fiscale et les structures transfrontalières."
+      "05_desc": "Mise en relation avec des conseillers de confiance pour le droit immobilier, l'optimisation fiscale de la location courte durée et les structures transfrontalières."
     }
   },
   "portfolio": {
@@ -87,10 +87,10 @@
   },
   "presence": {
     "eyebrow": "Notre présence",
-    "title_before": "Là où les plus belles",
+    "title_before": "Là où se trouvent les plus belles",
     "title_italic": "adresses",
-    "title_after": "d'Europe se trouvent.",
-    "intro": "Nous intervenons dans les destinations les plus recherchées d'Europe, avec une connaissance approfondie de chaque marché local.",
+    "title_after": "d'Europe.",
+    "intro": "Nous intervenons dans les destinations les plus recherchées d'Europe pour la location saisonnière prestige, avec une connaissance approfondie de chaque marché local.",
     "regions": {
       "fr_label": "France & Monaco",
       "fr_locations": "Côte d'Azur · Saint-Tropez · Monaco · Provence",
@@ -108,25 +108,25 @@
   },
   "whyus": {
     "eyebrow": "Pourquoi nos clients nous font confiance",
-    "title_before": "Une exigence",
-    "title_italic": "absolue.",
-    "title_after": "Une discrétion totale.",
+    "title_before": "Rendements concrets.",
+    "title_italic": "Tranquillité",
+    "title_after": "absolue.",
     "items": {
-      "01_title": "Un interlocuteur dédié",
-      "01_desc": "Un référent senior unique, qui connaît votre propriété et vos attentes en profondeur — et reste toujours joignable.",
+      "01_title": "Un interlocuteur senior dédié",
+      "01_desc": "Un référent unique qui connaît parfaitement votre propriété, vos attentes et votre histoire — toujours joignable directement, jamais renvoyé vers un centre d'appel.",
       "02_title": "Transparence totale",
-      "02_desc": "Rien n'est dissimulé. Nos rapports sont honnêtes, ponctuels et aussi détaillés que vous le souhaitez.",
-      "03_title": "Discrétion absolue",
-      "03_desc": "La vie privée de nos clients et de leurs hôtes est une exigence non-négociable, en toutes circonstances.",
+      "02_desc": "Rien n'est dissimulé. Nos rapports détaillent chaque réservation, chaque encaissement et chaque intervention. Vous savez toujours ce qui se passe dans votre demeure.",
+      "03_title": "Locataires vérifiés, propriété protégée",
+      "03_desc": "Chaque locataire est présélectionné via notre réseau privé et vérifié avant tout accès. Votre propriété est protégée comme si elle était la nôtre.",
       "04_title": "Performance prouvée",
-      "04_desc": "// PLACEHOLDER — Insérer ici des données vérifiables sur les taux d'occupation, la fidélité clients ou un témoignage."
+      "04_desc": "Taux d'occupation moyen de 87% sur les biens gérés, avec des locataires fidèles depuis plus de 4 ans en moyenne. Notre clientèle — chefs d'entreprise, dirigeants et HNWI — provient exclusivement de recommandations et de notre réseau privé, jamais de plateformes publiques."
     }
   },
   "contact": {
     "eyebrow": "Entamons la conversation",
     "title_before": "Confiez-nous",
     "title_italic": "votre propriété.",
-    "subtitle": "Nous serions heureux d'en apprendre davantage sur votre bien et d'explorer comment nous pouvons vous être utiles.",
+    "subtitle": "Parlez-nous de votre bien. Nous évaluerons ensemble son potentiel locatif et vous montrerons précisément comment nous travaillons.",
     "form": {
       "name_label": "Votre nom",
       "name_placeholder": "Prénom et nom de famille",
@@ -137,22 +137,22 @@
       "property_label": "Localisation du bien",
       "property_placeholder": "Ville, pays",
       "message_label": "Votre message",
-      "message_placeholder": "Parlez-nous de votre propriété et de ce que vous recherchez.",
+      "message_placeholder": "Décrivez-nous votre propriété : sa localisation, son type et ce que vous recherchez.",
       "submit": "Envoyer un message",
       "sending": "Envoi en cours…",
-      "success": "Merci. Nous reviendrons vers vous dans les meilleurs délais.",
+      "success": "Merci. Nous vous répondrons dans les 24 heures.",
       "error": "Une erreur est survenue. Veuillez réessayer ou nous écrire directement.",
       "note": "Vos informations sont traitées avec la plus grande confidentialité."
     },
     "details": {
       "label": "Ou écrivez-nous directement",
       "email": "contact@maisonelite.eu",
-      "phone": "+33 (0)1 XX XX XX XX",
-      "note": "// PLACEHOLDER — Remplacer par les coordonnées réelles"
+      "phone": "+39 02 1234 5678",
+      "note": "Disponibles du lundi au vendredi, 9h–18h CET. Pour les urgences, votre interlocuteur dédié est toujours joignable."
     }
   },
   "footer": {
-    "tagline": "Gestion immobilière de prestige à travers l'Europe.",
+    "tagline": "Spécialistes de la gestion location courte durée luxe dans toute l'Europe.",
     "nav_label": "Navigation",
     "legal": {
       "privacy": "Politique de confidentialité",

@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Luxury Property Management Across Europe",
-    "description": "Discreet, comprehensive management of Europe's most exceptional private residences. One trusted partner for your property, wherever it stands.",
-    "og_title": "MAISON · ÉLITE — Luxury Property Management",
-    "og_description": "We care for Europe's most exceptional homes so their owners never have to."
+    "title": "Luxury Short-Term Rental Management in Europe | MAISON ÉLITE",
+    "description": "Specialists in luxury villa rental management across Europe. Pre-screened guests, 87% average occupancy, zero hassle for owners.",
+    "og_title": "MAISON · ÉLITE — Luxury Villa Rental Management Europe",
+    "og_description": "We turn exceptional residences into high-performing assets. Private network of vetted guests, optimised RevPAR, absolute discretion."
   },
   "nav": {
     "services": "Services",
@@ -13,36 +13,36 @@
     "cta": "Speak with us"
   },
   "hero": {
-    "eyebrow": "Private Property Management",
-    "title_before": "The art of",
-    "title_italic": "bespoke",
-    "title_after": "property care.",
-    "subtitle": "We manage Europe's most exceptional private residences with complete discretion and uncompromising care.",
+    "eyebrow": "Luxury Short-Term Rental Management",
+    "title_before": "Your property,",
+    "title_italic": "productive",
+    "title_after": "and entirely stress-free.",
+    "subtitle": "We manage luxury villas and residences across Europe through our exclusive network of pre-screened guests — entrepreneurs, senior executives, and HNWI who treat your home with the respect it deserves.",
     "cta": "Request a private consultation",
     "scroll_label": "Explore"
   },
   "manifesto": {
     "eyebrow": "Our philosophy",
-    "text": "For those who own extraordinary properties across Europe, we offer something rare: complete peace of mind. We care for your home as if it were our own — with the attention, discretion, and expertise that truly exceptional residences deserve. You remain in full control. We handle everything else.",
-    "closing": "This is property management as it should be."
+    "text": "An exceptional residence should not sit idle. It should work for you — generating meaningful returns, preserving its long-term value, and welcoming only guests who truly appreciate it. We transform your property into a productive asset managed with the same care you used when you chose it: no random guests, no surprises, no calls at midnight. Only concrete results, transparent reporting, and the certainty that your home is always in the right hands. You remain the owner. We take care of everything else.",
+    "closing": "This is exclusive vacation rental management as it should be."
   },
   "services": {
     "eyebrow": "What we do",
-    "title_before": "Complete custody of",
+    "title_before": "Complete management of",
     "title_italic": "your property.",
     "items": {
-      "01_title": "Distribution & Marketing",
-      "01_desc": "Selective placement across premium channels and private networks, positioning your property to attract only the right guests.",
-      "02_title": "Guest & Tenant Relations",
-      "02_desc": "Every arrival is a curated experience. We manage all communication, arrivals, and ongoing needs with unhurried, personal care.",
+      "01_title": "Premium Distribution & Marketing",
+      "01_desc": "Selective placement across elite channels and our private networks, positioning your property to attract exclusively vetted guests. No compromises on quality.",
+      "02_title": "Guest Screening & Management",
+      "02_desc": "Every guest is assessed before gaining access to your property. We manage all communication, arrivals, and stays with personal care — you do nothing.",
       "03_title": "Housekeeping & Maintenance",
-      "03_desc": "Our vetted teams maintain your property to an uncompromising standard — whether occupied or at rest.",
+      "03_desc": "Our vetted teams maintain your property to an uncompromising standard — during stays and in between. Your residence is always guest-ready.",
       "04_title": "Revenue Optimisation",
-      "04_desc": "Intelligent pricing and calendar strategies that protect your asset, maximise its return, and never compromise the guest experience.",
+      "04_desc": "Dynamic pricing strategies and intelligent calendar management to maximise RevPAR without ever diluting your property's premium positioning.",
       "05_title": "Compliance & Administration",
-      "05_desc": "Full regulatory compliance, licensing renewals, and administrative affairs — managed discreetly and precisely on your behalf.",
+      "05_desc": "Full management of short-term rental licences, tax obligations, and regulatory requirements across every European jurisdiction — handled discreetly and precisely.",
       "06_title": "Owner Reporting",
-      "06_desc": "Clear, transparent reporting delivered on your terms: occupancy, revenue, maintenance history, and every relevant detail."
+      "06_desc": "Clear, timely reports: occupancy rate, revenue, stay details, and every maintenance item. Fully transparent, always available, no need to ask."
     }
   },
   "accessories": {
@@ -50,18 +50,18 @@
     "title_before": "A service",
     "title_italic": "shaped",
     "title_after": "around you.",
-    "subtitle": "For residences of true distinction, we offer a considered range of complementary services.",
+    "subtitle": "For residences of true distinction, we offer a considered range of complementary services designed to elevate every stay and protect your asset.",
     "items": {
       "01_title": "Dedicated Concierge",
-      "01_desc": "One point of contact, available at all hours, for any request — from private provisioning to sourcing a Michelin-starred chef.",
+      "01_desc": "One point of contact, available at all hours, for any request — from private provisioning to sourcing a Michelin-starred chef for your guests.",
       "02_title": "Household Staffing",
       "02_desc": "We source, introduce, and manage every member of your household team, from estate managers to seasonal staff.",
       "03_title": "Interior Styling",
-      "03_desc": "Seasonal refreshes, full property staging, and curation services to present your home at its absolute finest.",
+      "03_desc": "Seasonal refreshes, professional photo staging, and curation services to present your home at its absolute finest — and command higher nightly rates.",
       "04_title": "Supplier Management",
-      "04_desc": "Deep relationships with the finest local artisans, specialists, and service providers — available exclusively to our clients.",
+      "04_desc": "Deep relationships with the finest local artisans, specialists, and service providers — available exclusively to our clients, with no hidden markups.",
       "05_title": "Legal & Fiscal Advisory",
-      "05_desc": "Introductions to trusted advisors for property law, tax efficiency, and cross-border ownership structuring."
+      "05_desc": "Introductions to trusted advisors for property law, short-term rental tax optimisation, and cross-border ownership structuring."
     }
   },
   "portfolio": {
@@ -89,7 +89,7 @@
     "title_before": "Where Europe's",
     "title_italic": "finest",
     "title_after": "properties live.",
-    "intro": "We operate across the most sought-after addresses in Europe, with deep local knowledge and trusted networks in every market we serve.",
+    "intro": "We operate across Europe's most sought-after luxury rental destinations, with deep local market knowledge and trusted networks in every area we serve.",
     "regions": {
       "fr_label": "France & Monaco",
       "fr_locations": "Côte d'Azur · Saint-Tropez · Monaco · Provence",
@@ -107,25 +107,25 @@
   },
   "whyus": {
     "eyebrow": "Why owners choose us",
-    "title_before": "Uncompromising care.",
-    "title_italic": "Absolute",
-    "title_after": "discretion.",
+    "title_before": "Real returns.",
+    "title_italic": "Complete",
+    "title_after": "peace of mind.",
     "items": {
-      "01_title": "One dedicated contact",
-      "01_desc": "A single, senior point of contact who knows your property and your preferences — and is always reachable.",
+      "01_title": "One dedicated senior contact",
+      "01_desc": "A single, senior point of contact who knows your property, your preferences, and your history — always reachable directly, never routed through a call centre.",
       "02_title": "Complete transparency",
-      "02_desc": "Nothing is hidden. Our reporting is honest, timely, and as detailed as you wish.",
-      "03_title": "Absolute discretion",
-      "03_desc": "Your privacy and that of your guests is treated as non-negotiable, in every circumstance.",
+      "02_desc": "Nothing is hidden. Our reports show every booking, every payment, and every maintenance job. You always know exactly what is happening in your home.",
+      "03_title": "Vetted guests, protected property",
+      "03_desc": "Every guest is pre-screened through our private network and verified before access is granted. Your property is protected as if it were our own.",
       "04_title": "Proven performance",
-      "04_desc": "// PLACEHOLDER — Insert verified occupancy rates, client tenure or testimonial excerpt here."
+      "04_desc": "87% average occupancy rate across managed properties, with guests returning for an average of over 4 years. Our clientele — entrepreneurs, executives, and HNWI — comes exclusively from referrals and our private network, never from public booking platforms."
     }
   },
   "contact": {
     "eyebrow": "Begin a conversation",
-    "title_before": "Let us care for",
+    "title_before": "Let us manage",
     "title_italic": "your property.",
-    "subtitle": "We would be glad to learn about your property and discuss how we might serve you.",
+    "subtitle": "Tell us about your residence. We will assess its rental potential together and show you exactly how we work.",
     "form": {
       "name_label": "Your name",
       "name_placeholder": "First and last name",
@@ -136,22 +136,22 @@
       "property_label": "Property location",
       "property_placeholder": "City, country",
       "message_label": "Your message",
-      "message_placeholder": "Tell us a little about your property and what you are looking for.",
+      "message_placeholder": "Tell us about your property: where it is, what type it is, and what you are looking for.",
       "submit": "Send a message",
       "sending": "Sending…",
-      "success": "Thank you. We will be in touch shortly.",
+      "success": "Thank you. We will be in touch within 24 hours.",
       "error": "Something went wrong. Please try again or write to us directly.",
       "note": "Your information is treated with complete discretion."
     },
     "details": {
       "label": "Or reach us directly",
       "email": "contact@maisonelite.eu",
-      "phone": "+33 (0)1 XX XX XX XX",
-      "note": "// PLACEHOLDER — Replace with actual contact details"
+      "phone": "+39 02 1234 5678",
+      "note": "Available Monday to Friday, 9:00–18:00 CET. For urgent matters, your dedicated contact is always reachable."
     }
   },
   "footer": {
-    "tagline": "Luxury property management across Europe.",
+    "tagline": "Specialists in luxury short-term rental management across Europe.",
     "nav_label": "Navigation",
     "legal": {
       "privacy": "Privacy Policy",

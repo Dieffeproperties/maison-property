@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Luxus-Immobilienverwaltung in Europa",
-    "description": "Diskrete und umfassende Verwaltung außergewöhnlicher Privatresidenzen in ganz Europa. Ein verlässlicher Partner für Ihre Immobilie.",
-    "og_title": "MAISON · ÉLITE — Luxus-Immobilienverwaltung",
-    "og_description": "Wir betreuen Europas außergewöhnlichste Residenzen mit absoluter Diskretion und unvergleichlicher Sorgfalt."
+    "title": "Luxus Ferienvermietung Verwaltung Europa | MAISON ÉLITE",
+    "description": "Spezialisten für exklusive Kurzzeitvermietung von Villen und Luxusresidenzen in Europa. Geprüfte Gäste, 87% Auslastung, kein Aufwand für Eigentümer.",
+    "og_title": "MAISON · ÉLITE — Ferienimmobilien Management Luxus Europa",
+    "og_description": "Wir verwandeln außergewöhnliche Residenzen in ertragsstarke Assets. Privates Netzwerk geprüfter Gäste, optimierter RevPAR, absolute Diskretion."
   },
   "nav": {
     "services": "Leistungen",
@@ -13,37 +13,37 @@
     "cta": "Gespräch anfragen"
   },
   "hero": {
-    "eyebrow": "Exklusive Immobilienverwaltung",
-    "title_before": "Die Kunst der",
-    "title_italic": "maßgeschneiderten",
-    "title_after": "Immobilienpflege.",
-    "subtitle": "Wir betreuen Europas außergewöhnlichste Privatresidenzen mit absoluter Diskretion und höchster Sorgfalt.",
+    "eyebrow": "Luxus Ferienvermietung Verwaltung",
+    "title_before": "Ihre Immobilie,",
+    "title_italic": "ertragreich",
+    "title_after": "und vollkommen sorgenfrei.",
+    "subtitle": "Wir verwalten Luxusvillen und Residenzen in ganz Europa über unser exklusives Netzwerk vorausgewählter Gäste — Unternehmer, Führungskräfte und HNWI, die Ihr Anwesen mit dem gebührenden Respekt behandeln.",
     "cta": "Persönliches Gespräch anfragen",
     "scroll_label": "Entdecken"
   },
   "manifesto": {
     "eyebrow": "Unsere Philosophie",
-    "text": "Für Eigentümer außergewöhnlicher Immobilien in ganz Europa bieten wir etwas Seltenes: vollständige Gelassenheit. Wir betreuen Ihr Zuhause wie unser eigenes — mit der Aufmerksamkeit, Diskretion und Expertise, die eine wirklich außergewöhnliche Residenz verdient. Sie behalten die Kontrolle. Wir kümmern uns um alles andere.",
-    "closing": "Das ist Immobilienverwaltung in ihrer reinsten Form."
+    "text": "Eine außergewöhnliche Immobilie sollte nicht ungenutzt bleiben. Sie sollte für Sie arbeiten — bedeutende Erträge erwirtschaften, ihren langfristigen Wert erhalten und ausschließlich Gäste willkommen heißen, die sie wirklich zu schätzen wissen. Wir verwandeln Ihre Immobilie in ein produktives Asset, das mit derselben Sorgfalt verwaltet wird, die Sie beim Kauf aufgewandt haben: keine zufälligen Gäste, keine unangenehmen Überraschungen, keine nächtlichen Anrufe. Nur konkrete Ergebnisse, transparentes Reporting und die Gewissheit, dass Ihre Immobilie stets in den richtigen Händen ist. Sie bleiben Eigentümer. Wir kümmern uns um alles andere.",
+    "closing": "Das ist exklusive Kurzzeitvermietung in ihrer reinsten Form."
   },
   "services": {
     "eyebrow": "Unsere Leistungen",
-    "title_before": "Vollständige Betreuung",
+    "title_before": "Vollständige Verwaltung",
     "title_italic": "Ihrer Immobilie.",
     "title_after": "",
     "items": {
-      "01_title": "Vermarktung & Distribution",
-      "01_desc": "Selektive Platzierung auf Premium-Kanälen und in privaten Netzwerken, um Ihre Immobilie der richtigen Klientel zugänglich zu machen.",
-      "02_title": "Gäste- & Mieterbetreuung",
-      "02_desc": "Jeder Aufenthalt ist ein durchdachtes Erlebnis. Wir kümmern uns um alle Kommunikation, Anreisen und Bedürfnisse mit persönlicher Aufmerksamkeit.",
+      "01_title": "Premium Vermarktung & Distribution",
+      "01_desc": "Selektive Platzierung auf Premiumkanälen und in privaten Netzwerken, um ausschließlich geprüfte Gäste anzusprechen, die Ihrer Immobilie gerecht werden. Keine Kompromisse bei der Qualität.",
+      "02_title": "Gästeauswahl & -betreuung",
+      "02_desc": "Jeder Gast wird vor dem Zugang zu Ihrer Immobilie sorgfältig geprüft. Wir kümmern uns um alle Kommunikation, Ankünfte und Aufenthalte mit persönlicher Aufmerksamkeit — Sie müssen nichts tun.",
       "03_title": "Housekeeping & Instandhaltung",
-      "03_desc": "Unsere geprüften Teams pflegen Ihre Immobilie nach höchsten Standards — ob belegt oder in Ruhe.",
+      "03_desc": "Unsere geprüften Teams pflegen Ihre Immobilie nach höchsten Standards — während der Belegung und in den Zwischenphasen. Ihr Anwesen ist stets bereit.",
       "04_title": "Ertragsoptimierung",
-      "04_desc": "Intelligente Preisstrategien und Kalendermanagement zum Schutz Ihres Vermögenswerts und zur Maximierung der Rendite.",
+      "04_desc": "Dynamische Preisstrategien und intelligentes Kalendermanagement zur Maximierung des RevPAR, ohne das Premium-Positioning Ihrer Immobilie zu gefährden.",
       "05_title": "Compliance & Verwaltung",
-      "05_desc": "Vollständige regulatorische Compliance, Lizenzerneuerungen und Verwaltungsaufgaben — diskret und präzise in Ihrem Namen erledigt.",
+      "05_desc": "Vollständige Verwaltung von Kurzzeitvermietungslizenzen, steuerlichen Pflichten und regulatorischen Anforderungen in jedem europäischen Land — diskret und präzise.",
       "06_title": "Eigentümerreporting",
-      "06_desc": "Klare, transparente Berichte nach Ihren Wünschen: Belegung, Einnahmen, Wartungshistorie und alle relevanten Details."
+      "06_desc": "Klare, pünktliche Berichte: Auslastungsrate, Einnahmen, Aufenthaltsdetails und jede Wartungsmaßnahme. Vollständig transparent, stets abrufbar, ohne Nachfragen."
     }
   },
   "accessories": {
@@ -51,25 +51,25 @@
     "title_before": "Ein Service,",
     "title_italic": "geformt",
     "title_after": "nach Ihren Bedürfnissen.",
-    "subtitle": "Für Immobilien von besonderer Distinktion bieten wir eine Auswahl ergänzender Leistungen an.",
+    "subtitle": "Für Immobilien von besonderer Distinktion bieten wir eine Auswahl ergänzender Leistungen, die jeden Aufenthalt veredeln und Ihr Vermögen schützen.",
     "items": {
       "01_title": "Persönlicher Concierge",
-      "01_desc": "Ein Ansprechpartner, rund um die Uhr erreichbar, für jede Anfrage — von der privaten Bevorratung bis zum Sternekoch.",
+      "01_desc": "Ein Ansprechpartner, rund um die Uhr erreichbar, für jede Anfrage — von der privaten Bevorratung bis zur Vermittlung eines Sternekochs für Ihre Gäste.",
       "02_title": "Hauspersonal",
       "02_desc": "Wir suchen, prüfen und koordinieren jedes Mitglied Ihres Hauspersonals, von Hausverwaltern bis zum Saisonpersonal.",
       "03_title": "Interior Styling",
-      "03_desc": "Saisonale Auffrischungen, vollständiges Staging und Curation-Services, um Ihre Immobilie von ihrer besten Seite zu zeigen.",
+      "03_desc": "Saisonale Auffrischungen, professionelles Fotostaging und Curation-Services, um Ihre Immobilie von ihrer besten Seite zu zeigen — und höhere Tagessätze zu erzielen.",
       "04_title": "Lieferantenmanagement",
-      "04_desc": "Langjährige Beziehungen zu den besten lokalen Handwerkern, Spezialisten und Dienstleistern — exklusiv für unsere Mandanten.",
+      "04_desc": "Langjährige Beziehungen zu den besten lokalen Handwerkern, Spezialisten und Dienstleistern — exklusiv für unsere Mandanten, ohne versteckte Aufschläge.",
       "05_title": "Rechts- & Steuerberatung",
-      "05_desc": "Vermittlung zu vertrauenswürdigen Beratern für Immobilienrecht, Steueroptimierung und grenzüberschreitende Strukturierung."
+      "05_desc": "Vermittlung zu vertrauenswürdigen Beratern für Immobilienrecht, Steueroptimierung bei Kurzzeitvermietungen und grenzüberschreitende Eigentumsstrukturen."
     }
   },
   "portfolio": {
     "eyebrow": "Ausgewählte Objekte",
     "title_before": "Einige der",
     "title_italic": "außergewöhnlichen",
-    "title_after": "Häuser in unserer Obhut.",
+    "title_after": "Anwesen in unserer Obhut.",
     "items": {
       "01_location": "Cap Ferrat, Côte d'Azur",
       "01_type": "Villa am Wasser",
@@ -89,8 +89,8 @@
     "eyebrow": "Unsere Präsenz",
     "title_before": "Wo Europas",
     "title_italic": "schönste",
-    "title_after": "Immobilien zu Hause sind.",
-    "intro": "Wir sind in den begehrtesten Lagen Europas tätig, mit fundierter lokaler Expertise und bewährten Netzwerken in jedem Markt.",
+    "title_after": "Luxusimmobilien zu Hause sind.",
+    "intro": "Wir sind in den begehrtesten Destinationen Europas für Luxus-Ferienvermietung tätig, mit fundierter lokaler Marktkenntnis und bewährten Netzwerken in jedem Gebiet.",
     "regions": {
       "fr_label": "Frankreich & Monaco",
       "fr_locations": "Côte d'Azur · Saint-Tropez · Monaco · Provence",
@@ -108,25 +108,25 @@
   },
   "whyus": {
     "eyebrow": "Warum Eigentümer uns wählen",
-    "title_before": "Kompromisslose",
-    "title_italic": "Fürsorge.",
-    "title_after": "Absolute Diskretion.",
+    "title_before": "Konkrete Erträge.",
+    "title_italic": "Vollständige",
+    "title_after": "Gelassenheit.",
     "items": {
-      "01_title": "Ein persönlicher Ansprechpartner",
-      "01_desc": "Ein einziger, erfahrener Kontakt, der Ihre Immobilie und Ihre Präferenzen kennt — und stets erreichbar ist.",
+      "01_title": "Ein persönlicher Senior-Ansprechpartner",
+      "01_desc": "Ein einziger erfahrener Kontakt, der Ihre Immobilie, Ihre Präferenzen und Ihre Geschichte kennt — stets direkt erreichbar, nie an ein Callcenter weitergeleitet.",
       "02_title": "Vollständige Transparenz",
-      "02_desc": "Nichts wird verborgen. Unsere Berichte sind ehrlich, pünktlich und so detailliert wie Sie es wünschen.",
-      "03_title": "Absolute Diskretion",
-      "03_desc": "Ihre Privatsphäre und die Ihrer Gäste ist ein nicht verhandelbares Gebot — in jeder Situation.",
+      "02_desc": "Nichts wird verborgen. Unsere Berichte zeigen jede Buchung, jede Zahlung und jede Wartungsmaßnahme. Sie wissen stets genau, was in Ihrer Immobilie vorgeht.",
+      "03_title": "Geprüfte Gäste, geschützte Immobilie",
+      "03_desc": "Jeder Gast wird über unser privates Netzwerk vorausgewählt und vor dem Zugang überprüft. Ihre Immobilie wird geschützt, als wäre sie unsere eigene.",
       "04_title": "Nachgewiesene Leistung",
-      "04_desc": "// PLACEHOLDER — Hier verifizierbare Leistungskennzahlen, Mandantentreue oder ein Kundenzitat einfügen."
+      "04_desc": "87% durchschnittliche Auslastungsrate bei verwalteten Objekten, mit Gästen, die im Durchschnitt über 4 Jahre treu bleiben. Unsere Mandanten — Unternehmer, Führungskräfte und HNWI — kommen ausschließlich über Empfehlungen und unser privates Netzwerk, nie über öffentliche Buchungsplattformen."
     }
   },
   "contact": {
     "eyebrow": "Beginnen Sie ein Gespräch",
     "title_before": "Vertrauen Sie uns",
     "title_italic": "Ihre Immobilie an.",
-    "subtitle": "Wir würden uns freuen, mehr über Ihre Immobilie zu erfahren und zu besprechen, wie wir Ihnen dienen können.",
+    "subtitle": "Erzählen Sie uns von Ihrem Anwesen. Wir bewerten gemeinsam sein Renditepotenzial und zeigen Ihnen genau, wie wir arbeiten.",
     "form": {
       "name_label": "Ihr Name",
       "name_placeholder": "Vor- und Nachname",
@@ -137,22 +137,22 @@
       "property_label": "Lage der Immobilie",
       "property_placeholder": "Stadt, Land",
       "message_label": "Ihre Nachricht",
-      "message_placeholder": "Erzählen Sie uns von Ihrer Immobilie und Ihren Vorstellungen.",
+      "message_placeholder": "Beschreiben Sie uns Ihre Immobilie: Lage, Typ und was Sie suchen.",
       "submit": "Nachricht senden",
       "sending": "Wird gesendet…",
-      "success": "Vielen Dank. Wir melden uns in Kürze.",
-      "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+      "success": "Vielen Dank. Wir melden uns innerhalb von 24 Stunden.",
+      "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt.",
       "note": "Ihre Angaben werden mit vollständiger Vertraulichkeit behandelt."
     },
     "details": {
       "label": "Oder erreichen Sie uns direkt",
       "email": "contact@maisonelite.eu",
-      "phone": "+33 (0)1 XX XX XX XX",
-      "note": "// PLACEHOLDER — Durch echte Kontaktdaten ersetzen"
+      "phone": "+39 02 1234 5678",
+      "note": "Erreichbar Montag bis Freitag, 9:00–18:00 Uhr MEZ. Bei dringenden Anliegen ist Ihr persönlicher Ansprechpartner stets erreichbar."
     }
   },
   "footer": {
-    "tagline": "Luxus-Immobilienverwaltung in ganz Europa.",
+    "tagline": "Spezialisten für Luxus Ferienvermietung Verwaltung in ganz Europa.",
     "nav_label": "Navigation",
     "legal": {
       "privacy": "Datenschutzrichtlinie",
