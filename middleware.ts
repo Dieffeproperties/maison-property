@@ -1,6 +1,6 @@
 import createMiddleware from 'next-intl/middleware';
 import { routing } from './i18n/routing';
-import { type NextRequest } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
 
 const intlMiddleware = createMiddleware(routing);
 
@@ -19,18 +19,15 @@ export default function middleware(request: NextRequest) {
 
   if (!cookieLocale) {
     const country = request.headers.get('x-vercel-ip-country');
-    if (country) {
+    if (country && COUNTRY_TO_LOCALE[country]) {
       const geoLocale = COUNTRY_TO_LOCALE[country];
-      if (geoLocale) {
-        const modifiedHeaders = new Headers(request.headers);
-        const existing = request.headers.get('accept-language') || 'en';
-        modifiedHeaders.set('accept-language', `${geoLocale};q=1.0,${existing}`);
-        const modifiedRequest = new Request(request.url, {
-          headers: modifiedHeaders,
-          method: request.method,
-          body: request.body ?? undefined,
-        });
-        return intlMiddleware(modifiedRequest as NextRequest);
+      const url = request.nextUrl.clone();
+      // Redirect to geo-detected locale path if at root
+      if (url.pathname === '/' || url.pathname === '') {
+        url.pathname = `/${geoLocale}`;
+        const response = NextResponse.redirect(url);
+        response.cookies.set('NEXT_LOCALE', geoLocale, { path: '/', maxAge: 60 * 60 * 24 * 365 });
+        return response;
       }
     }
   }
